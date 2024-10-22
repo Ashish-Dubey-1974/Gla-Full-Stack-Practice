@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.logo{
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(27,25,25);
+    height: 40px;
+    width: auto;
+    
+}
+.logo:hover{
+    background-color:rgb(49, 46, 46) ;
+    cursor: pointer;
+}
+.navbar{
+    border-radius: 10px;
+    /* position: fixed; */
+    display: flex;
+    justify-items: center;
+    box-shadow: 0.0001px 1px 30px rgb(87, 84, 84);
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 70px;
+    margin: 0px 100px ;
+    background-color: rgb(27, 25, 25);
+    align-items: center;
+}
+.navbar a{
+    border-radius: 20px;
+    overflow: hidden ;
+    box-sizing: border-box;
+    font-family:"Nixie One" ;
+    background-color:  rgb(27, 25, 25);
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    
+    
+
+}
+.navbar a:hover{
+    background-color: rgb(49, 46, 46);
+}
+.Container{
+    box-shadow: 1px 1px 20px rgb(48, 48, 48);
+    border-radius: 20px;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 50px 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1000px;
+    height: 450px;
+    /* border: 2px solid green; */
+
+    
+}
+.box{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+    /* box-shadow: 1px 1px 20px rgb(48, 48, 48); */
+   
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 45px;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+section{
+    color: aliceblue;
+    margin: 50px;
+
+}
+p{
+    color: rgb(146, 146, 146);
+    text-align: left;
+    font-family:"Nixie One" ;
+    /* background-color: aqua; */
+}
+button{
+    margin-left: 150px;
+    background-color: green;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+    padding: 15px 50px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 10px rgb(147, 145, 145);
+}
+img{
+    /* box-shadow: 0px 1px 20px rgb(78, 76, 76); */
+    height: 400px;
+    border-radius: 50%;
+    margin: px 50px;
+    width: auto;
+}
+.hobbySection{
+    border-radius: 10px;
+    /* position: fixed; */
+    display: flex;
+    justify-items: center;
+    box-shadow: 0.0001px 1px 20px rgb(59, 59, 59);
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 70px;
+    margin: 0px 100px ;
+    padding: 20px 50px;
+    background-color: rgb(27, 25, 25);
+    align-items: center;
+}
+.hbox{
+    display: flex;
+    color: white;
+    background-color: rgb(27, 25, 25);
+}
+.button:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
